@@ -50,10 +50,62 @@ export default function Navbar() {
         <a
           href="#home"
           onClick={(e) => scrollTo(e, "#home")}
-          style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-          className="text-2xl font-black tracking-tighter text-foreground flex items-center gap-0.5"
+          className="flex items-center gap-3 group select-none"
         >
-          AS<span className="text-primary">.</span>
+          {/* Animated monogram ring */}
+          <div className="relative w-10 h-10 shrink-0">
+            <svg
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-10 h-10"
+              style={{ animation: "logo-ring-spin 8s linear infinite" }}
+            >
+              <circle
+                cx="20" cy="20" r="18"
+                stroke="#c9a96e"
+                strokeWidth="0.8"
+                strokeOpacity="0.4"
+                strokeDasharray="2 4"
+              />
+              <circle
+                cx="20" cy="20" r="18"
+                stroke="#c9a96e"
+                strokeWidth="1.5"
+                strokeOpacity="0.9"
+                strokeDasharray="12 44"
+                strokeLinecap="round"
+              />
+            </svg>
+            <div className="absolute inset-0 flex items-center justify-center">
+              <span
+                className="text-[13px] font-bold leading-none"
+                style={{
+                  fontFamily: "'Playfair Display', serif",
+                  color: "#c9a96e",
+                  animation: "logo-pulse-gold 3s ease-in-out infinite",
+                }}
+              >
+                AS
+              </span>
+            </div>
+          </div>
+
+          {/* Name block */}
+          <div className="flex flex-col leading-none gap-[2px]">
+            <span
+              className="text-[17px] font-bold tracking-wide"
+              style={{ fontFamily: "'Playfair Display', serif", color: "#f0ece3" }}
+            >
+              Ashwini
+            </span>
+            <span
+              className="text-[10px] font-light tracking-[0.22em] uppercase"
+              style={{ fontFamily: "'DM Sans', sans-serif", color: "#c9a96e" }}
+            >
+              Sonawane
+            </span>
+          </div>
         </a>
 
         {/* Desktop Nav */}
