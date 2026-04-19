@@ -6,7 +6,7 @@ const blinks = [
   { word: "Hello", sub: "welcome" },
 ];
 
-const BLINK_DURATION = 500; // ms each greeting is shown
+const BLINK_DURATION = 2000; // ms each greeting is shown
 
 export default function Preloader({ onDone }: { onDone: () => void }) {
   const [index, setIndex] = useState(0);
@@ -17,8 +17,8 @@ export default function Preloader({ onDone }: { onDone: () => void }) {
       const t = setTimeout(() => setIndex((i) => i + 1), BLINK_DURATION);
       return () => clearTimeout(t);
     } else {
-      // Last blink shown — hold briefly then exit
-      const t = setTimeout(() => setDone(true), 300);
+      // Last blink shown — hold for 2s then exit
+      const t = setTimeout(() => setDone(true), 2000);
       return () => clearTimeout(t);
     }
   }, [index]);
