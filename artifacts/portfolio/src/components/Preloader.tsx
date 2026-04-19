@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const blinks = [
-  { word: "नमस्ते", sub: "Namaste" },
   { word: "Hello", sub: "welcome" },
+  { word: "नमस्ते", sub: "Namaste" },
 ];
 
 const BLINK_DURATION = 1200; // ms each greeting is shown
