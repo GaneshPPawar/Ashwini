@@ -130,7 +130,7 @@ export default function About() {
                 $ profile.json
               </p>
               <div className="mt-3 space-y-1.5 text-sm text-muted-foreground font-mono text-xs">
-                <p><span className="text-blue-300">"name"</span>: <span className="text-green-300">"Ashwini Sonwane"</span>,</p>
+                <p><span className="text-blue-300">"name"</span>: <span className="text-green-300">"Ashwini Sonawane"</span>,</p>
                 <p><span className="text-blue-300">"location"</span>: <span className="text-green-300">"Jalgaon, India"</span>,</p>
                 <p><span className="text-blue-300">"role"</span>: <span className="text-green-300">"Full-Stack Developer"</span>,</p>
                 <p><span className="text-blue-300">"status"</span>: <span className="text-emerald-400">"open to opportunities"</span></p>

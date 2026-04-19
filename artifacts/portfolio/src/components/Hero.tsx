@@ -54,7 +54,7 @@ export default function Hero() {
             >
               Hi, I'm Ashwini
               <br />
-              Sonwane.
+              Sonawane.
             </h1>
             <h2
               className="text-4xl md:text-5xl xl:text-6xl font-extrabold leading-[1.1] tracking-tight"
@@ -100,7 +100,7 @@ export default function Hero() {
               View Projects <ArrowRight className="w-4 h-4" />
             </button>
             <a
-              href="/Ashwini_Sonwane_Resume.pdf"
+              href="/Ashwini_Sonawane_Resume.pdf"
               download
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-card border border-border text-foreground text-sm font-semibold rounded-lg hover:border-primary/40 hover:text-primary transition-all"
             >

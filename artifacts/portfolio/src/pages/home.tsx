@@ -38,7 +38,7 @@ export default function Home() {
             <footer className="border-t border-border/50 py-8">
               <div className="max-w-screen-xl mx-auto px-4 md:px-5 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
                 <span style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-                  © 2025 <span className="text-foreground font-semibold">Ashwini Sonwane</span>. All rights reserved.
+                  © 2025 <span className="text-foreground font-semibold">Ashwini Sonawane</span>. All rights reserved.
                 </span>
                 <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "12px" }}>
                   Built with React + Framer Motion

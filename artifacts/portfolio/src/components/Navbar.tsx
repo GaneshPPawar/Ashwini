@@ -138,7 +138,7 @@ export default function Navbar() {
         {/* Resume button */}
         <div className="hidden md:flex">
           <a
-            href="/Ashwini_Sonwane_Resume.pdf"
+            href="/Ashwini_Sonawane_Resume.pdf"
             download
             className="inline-flex items-center gap-2 px-5 py-2 border border-primary/50 text-primary text-sm font-semibold rounded-lg hover:bg-primary hover:text-primary-foreground transition-all"
           >
@@ -175,7 +175,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="/Ashwini_Sonwane_Resume.pdf"
+              href="/Ashwini_Sonawane_Resume.pdf"
               download
               className="inline-flex items-center justify-center gap-2 px-5 py-2.5 border border-primary/50 text-primary text-sm font-semibold rounded-lg"
             >
