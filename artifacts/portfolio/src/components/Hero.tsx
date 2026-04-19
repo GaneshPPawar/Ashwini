@@ -115,7 +115,7 @@ export default function Hero() {
               <Github className="w-4 h-4" /> GitHub
             </a>
             <a
-              href="https://linkedin.com/in/ashwini-sonawane"
+              href="https://www.linkedin.com/in/ashwini-sonawane-231b0637b/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-card border border-border text-foreground text-sm font-semibold rounded-lg hover:border-primary/40 hover:text-primary transition-all"

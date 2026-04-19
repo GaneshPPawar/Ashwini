@@ -128,7 +128,7 @@ export default function Contact() {
                 <Github className="w-4 h-4" /> GitHub
               </a>
               <a
-                href="https://linkedin.com/in/ashwini-sonawane"
+                href="https://www.linkedin.com/in/ashwini-sonawane-231b0637b/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 px-4 py-2.5 bg-card border border-border rounded-xl text-sm font-medium text-muted-foreground hover:text-foreground hover:border-primary/40 transition-all"
