@@ -69,27 +69,30 @@ export default function Projects() {
       <div className="max-w-screen-xl mx-auto px-4 md:px-5 relative z-10">
         {/* Section header */}
         <motion.div
-          initial={{ opacity: 0, y: 18 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mb-10"
+          className="mb-14"
         >
-          <div className="flex items-center gap-3 mb-3">
-            <span className="text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase"
-              style={{ fontFamily: "'JetBrains Mono', monospace" }}>
-              04 / PROJECTS
-            </span>
-          </div>
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">🚀</span>
-            <h2
-              className="text-3xl md:text-4xl font-extrabold text-foreground tracking-tight"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+          <p
+            className="text-primary text-sm font-semibold tracking-[0.18em] uppercase mb-3"
+            style={{ fontFamily: "'JetBrains Mono', monospace" }}
+          >
+            — Projects
+          </p>
+          <h2
+            className="text-4xl md:text-5xl font-bold tracking-tight text-foreground"
+            style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+          >
+            Featured{" "}
+            <span
+              className="text-transparent bg-clip-text"
+              style={{ backgroundImage: "linear-gradient(100deg, #a855f7, #818CF8)" }}
             >
-              Featured Projects
-            </h2>
-          </div>
+              Projects
+            </span>
+          </h2>
         </motion.div>
 
         {/* Filter tabs */}
